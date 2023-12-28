@@ -15,3 +15,6 @@ The code samples in this repository are for demonstration purposes only and shou
 
 ## Contact
 If you have any questions or feedback, please open an issue in this repository.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
