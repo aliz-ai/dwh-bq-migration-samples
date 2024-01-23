@@ -1,4 +1,4 @@
-resource "google_bigquery_routine" "sql_udf" {
+resource "google_bigquery_routine" "array_filter_empty_or_null_sql_udf" {
   project         = var.gcp_project_id
   dataset_id      = google_bigquery_dataset.udfs.dataset_id
   routine_id      = "ARRAY_FILTER_EMPTY_OR_NULL"
