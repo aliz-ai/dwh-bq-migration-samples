@@ -14,7 +14,7 @@ CASE
 EOT
   description     = "Calculates the exact median"
   arguments {
-      name          = "ARR"
-      argument_kind = "ANY_TYPE"
-    }
+    name          = "ARR"
+    argument_kind = "ANY_TYPE"
+  }
 }

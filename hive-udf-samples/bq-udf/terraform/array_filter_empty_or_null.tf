@@ -13,8 +13,8 @@ EOT
   description     = "Filters out empty or null values from an array and returns the filtered array."
 
   arguments {
-      name          = "INPUT_ARRAY"
-      argument_kind = "ANY_TYPE"
-    }
+    name          = "INPUT_ARRAY"
+    argument_kind = "ANY_TYPE"
+  }
 
 }
