@@ -1,0 +1,12 @@
+<Transaction>
+    <Product>
+        <Name>SuperWidget</Name>
+        <Price>199.99</Price>
+        <Description>This is a top-of-the-line widget that can do everything you need.</Description>
+    </Product>
+    <Customer>
+        <Name>John Doe</Name>
+        <Email>johndoe@example.com</Email>
+    </Customer>
+    <Date>2023-09-15</Date>
+</Transaction>
