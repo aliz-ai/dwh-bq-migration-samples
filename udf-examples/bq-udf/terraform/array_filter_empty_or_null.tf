@@ -17,4 +17,6 @@ EOT
     argument_kind = "ANY_TYPE"
   }
 
+  depends_on = [google_bigquery_dataset.udfs]
+
 }

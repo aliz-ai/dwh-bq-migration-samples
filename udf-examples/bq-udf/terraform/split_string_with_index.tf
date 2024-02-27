@@ -20,4 +20,5 @@ EOT
     name      = "delimiter"
     data_type = "{\"typeKind\" :  \"STRING\"}"
   }
+  depends_on = [google_bigquery_dataset.udfs]
 }
