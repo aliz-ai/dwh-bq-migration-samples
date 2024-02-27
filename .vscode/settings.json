@@ -1,7 +1,3 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive",
-    "java.compile.nullAnalysis.mode": "automatic",
-    "java.project.sourcePaths": [
-        "hive-udf-samples/bq-udf/remote-functions/src/main/java"
-    ]
+    "java.compile.nullAnalysis.mode": "automatic"
 }

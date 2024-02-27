@@ -19,7 +19,9 @@ public class TestXmlProductInfoExtractorUDF {
         var xmlContent = new String(getClass().getClassLoader().getResourceAsStream("sample1.xml").readAllBytes());
         var input = new ArrayList<JsonElement>();
         input.add(new JsonPrimitive(xmlContent));
+
         var response = new XmlProductInfoExtractorUDF().process(null, input);
+        
         Assertions.assertNotNull(response);
         Assertions.assertEquals("Product Name: SuperWidget, Price: 199.99", response.getAsString());
 
